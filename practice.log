@@ -1,0 +1,31 @@
+2026-05-23 10:18:22 - ERROR - Value error
+Traceback (most recent call last):
+  File "C:\Users\home\PycharmProjects\Hw\practice.py", line 23, in <module>
+    res = divider(key, data[key])
+  File "C:\Users\home\PycharmProjects\Hw\practice.py", line 14, in divider
+    raise ValueError
+ValueError
+2026-05-23 10:18:22 - ERROR - Type error
+Traceback (most recent call last):
+  File "C:\Users\home\PycharmProjects\Hw\practice.py", line 23, in <module>
+    res = divider(key, data[key])
+  File "C:\Users\home\PycharmProjects\Hw\practice.py", line 13, in divider
+    if a < b:
+       ^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+2026-05-23 10:18:22 - ERROR - Zero division error
+Traceback (most recent call last):
+  File "C:\Users\home\PycharmProjects\Hw\practice.py", line 23, in <module>
+    res = divider(key, data[key])
+  File "C:\Users\home\PycharmProjects\Hw\practice.py", line 17, in divider
+    return a/b
+           ~^~
+ZeroDivisionError: division by zero
+2026-05-23 10:18:22 - ERROR - Type error
+Traceback (most recent call last):
+  File "C:\Users\home\PycharmProjects\Hw\practice.py", line 23, in <module>
+    res = divider(key, data[key])
+  File "C:\Users\home\PycharmProjects\Hw\practice.py", line 13, in divider
+    if a < b:
+       ^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
